@@ -4,7 +4,7 @@ import AgeCalculator from '../src/age-calculator.js';
 describe ('Test', () => {
   let newTest; 
   beforeEach(() => {
-    let age = 30;
+    let age = 88;
     let expectancy = 73
     newTest = new AgeCalculator(age, expectancy);
   });
@@ -33,5 +33,8 @@ describe ('Test', () => {
     expect(newTest.yearsRemain()).toEqual(43)
   })
 
+  test('should return the number of years past lives past life expectancy if current age exceeds average life expectancy', () => {
+    expect(newTest.yearsExceed()).toEqual('You have lived 15 years beyond average life expectancy.')
+  })
 
 })
