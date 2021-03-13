@@ -33,4 +33,12 @@ export default class AgeCalculator {
     let toGo = Math.round(this.expectancy - this.age)
     return toGo;
   }
-}
+
+  yearsExceed() {
+    if (this.age > this.expectancy) {
+      let yearsBeyond = Math.round(this.age - this.expectancy)
+      return (`You have lived ${yearsBeyond} years beyond average life expectancy.`);
+    } else {
+    }
+    }
+  }
