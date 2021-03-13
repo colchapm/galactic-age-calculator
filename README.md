@@ -1,9 +1,9 @@
 ### _This project is not in a complete or portfolio ready state, and should not be considered representiational of professional work._
 
 
-# Application Name
+# Galactic Age Calculator
 
-#### Brief Description of Application
+#### This application determines a user's age based on a planet's solar years
 
 #### By Collin Chapman
 
@@ -37,15 +37,15 @@
 
 ## Description
 
-This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.
+This goal of this project is to solidify my knowledge of Test Driven Development and Environments with JavaScript. A solar year lasts 365 days on planet Earth. However, the length of a solar year varies form planet to planet. For instance, a solar year on Mercury lasts 88 days. This application is supposed to determine a user's age based on a planet's solar years.
 
 ## Setup/Installation Requirements
 
 * _Open the terminal on your local machine_
 * _If [Node.js](https://nodejs.org/en/) and [Node Package Manager (npm)](https://www.npmjs.com/) are not installed on your local device, follow the instructions [here](https://www.learnhowtoprogram.com/intermediate-javascript/getting-started-with-javascript/installing-node-js)_
 * _Navigate to the directory inside of which you wish to house this project_
-* _Clone this project with the following command  `$ git clone <https://github.com/colchapm/project_name>`_
-* _Navigate to the top level of the repository with the command `$ cd project_name`_
+* _Clone this project with the following command  `$ git clone <https://github.com/colchapm/galactic-age-calculator.git>`_
+* _Navigate to the top level of the repository with the command `$ galactic-age-calculator`_
 * _Recreate project environment and install required dependencies with terminal command `$ npm install`_
 * _Create production environment with terminal command `$ npm run build`_
 * Open project in a development server in the browswer of your choice with the command `$ npm run start`_
