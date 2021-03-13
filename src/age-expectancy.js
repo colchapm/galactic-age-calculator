@@ -41,7 +41,17 @@ export default class AgeExpectancy {
     }
   }
 
-
+  tobaccoCalculator() {
+    if (this.tobacco === "never") {
+      return this.ageExpectancy;
+    }
+    else if (this.tobacco === "social") {
+      return this.ageExpectancy -= 4;
+    } 
+    else {
+      return this.ageExpectancy -= 13;
+    }
+  }
 }
 
 
