@@ -12,11 +12,13 @@ describe ('Test', () => {
     expect(newTest.earthCalculator()).toEqual(30);
   })
 
-  test('shold return the age in Mercury years', () => {
+  test('should return the age in Mercury years', () => {
     expect(newTest.mercuryCalculator()).toEqual(7)
   })
 
-
+  test('should return the age in Venus years', () => {
+    expect(newTest.venusCalculator()).toEqual(19)
+  })
 
 
 
