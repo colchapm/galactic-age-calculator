@@ -8,4 +8,10 @@ export default class AgeCalculator {
     return earthAge;
 }
 
+  mercuryCalculator() {
+    let mercuryAge = Math.round(this.age * .24)
+    return mercuryAge;
+  }
+
+
 }
