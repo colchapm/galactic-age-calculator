@@ -6,7 +6,7 @@ describe ('Test', () => {
     let region = "Americas";
     let gender = "female";
     let tobacco = "heavy";
-    let alcohol = "2-5 Drinks Per Week";
+    let alcohol = "moderate";
     // let region = $("#region").val();
     // let gender = $("#gender").val();
     // let tobacco = $("#tobacco").val();
@@ -29,4 +29,10 @@ describe ('Test', () => {
     expect(expectancyTest.tobaccoCalculator()).toEqual(69);
   })
 
+  test('should return average life expectancy based on alcohol use', () => {
+    expectancyTest.regionCalculator();
+    expectancyTest.genderCalculator();
+    expectancyTest.tobaccoCalculator();
+    expect(expectancyTest.alcoholCalculator()).toEqual(67)
+  }
 })
