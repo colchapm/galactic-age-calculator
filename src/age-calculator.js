@@ -18,4 +18,9 @@ export default class AgeCalculator {
     return venusAge;
   }
 
+  marsCalculator() {
+    let marsAge = Math.round(this.age * 1.88)
+    return marsAge;
+  }
+
 }
