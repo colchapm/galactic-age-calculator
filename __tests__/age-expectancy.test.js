@@ -5,7 +5,7 @@ describe ('Test', () => {
   beforeEach(() => {
     let region = "Americas";
     let gender = "female";
-    let tobacco = "Socially";
+    let tobacco = "heavy";
     let alcohol = "2-5 Drinks Per Week";
     // let region = $("#region").val();
     // let gender = $("#gender").val();
@@ -18,10 +18,15 @@ describe ('Test', () => {
     expect(expectancyTest.regionCalculator()).toEqual(77);
   })
 
-    test('should return average life expectancy based on gender', () => {
-      expectancyTest.regionCalculator();
-      expect(expectancyTest.genderCalculator()).toEqual(82);
-    })
+  test('should return average life expectancy based on gender', () => {
+    expectancyTest.regionCalculator();
+    expect(expectancyTest.genderCalculator()).toEqual(82);
+  })
 
+  test('should return average life expectancy based on tobacco use', () => {
+    expectancyTest.regionCalculator();
+    expectancyTest.genderCalculator();
+    expect(expectancyTest.tobaccoCalculator()).toEqual(69);
+  })
 
 })
