@@ -29,16 +29,16 @@ export default class AgeCalculator {
     return jupiterAge;
   }
 
-  yearsRemain() {
-    let toGo = Math.round(this.expectancy - this.age)
-    return toGo;
-  }
-
-  yearsExceed() {
+  lifeCalculator() {
     if (this.age > this.expectancy) {
       let yearsBeyond = Math.round(this.age - this.expectancy)
-      return (`You have lived ${yearsBeyond} years beyond average life expectancy.`);
+      return (`You have lived ${yearsBeyond} years beyond average life expectancy on Earth.`);
+    } else if (this.age === this.expectancy) {
+      return (`You are ${this.age} years old and that is equal to the average life expectancy on Earth.`);
     } else {
+      let toGo = Math.round(this.expectancy - this.age)
+      return (`You have ${toGo} years left to live before reaching average life expectancy on Earth.`);
     }
     }
   }
+  
