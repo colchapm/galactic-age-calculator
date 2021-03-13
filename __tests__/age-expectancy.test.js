@@ -4,7 +4,7 @@ describe ('Test', () => {
   let expectancyTest;
   beforeEach(() => {
     let region = "Americas";
-    let gender = "Male";
+    let gender = "female";
     let tobacco = "Socially";
     let alcohol = "2-5 Drinks Per Week";
     // let region = $("#region").val();
@@ -19,7 +19,8 @@ describe ('Test', () => {
   })
 
     test('should return average life expectancy based on gender', () => {
-      expect(expectancyTest.genderCalculator()).toEqual(77);
+      expectancyTest.regionCalculator();
+      expect(expectancyTest.genderCalculator()).toEqual(82);
     })
 
 
