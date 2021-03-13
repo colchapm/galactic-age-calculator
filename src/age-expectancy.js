@@ -31,6 +31,16 @@ export default class AgeExpectancy {
     return this.ageExpectancy;
   }
 
+  genderCalculator() {
+    if (this.gender === "female") {
+      this.ageExpectancy += 5;
+      return this.ageExpectancy;
+    } 
+    else {
+      return this.ageExpectancy;
+    }
+  }
+
 
 }
 
