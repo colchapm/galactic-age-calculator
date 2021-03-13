@@ -52,6 +52,19 @@ export default class AgeExpectancy {
       return this.ageExpectancy -= 13;
     }
   }
+
+  alcoholCalculator() {
+    if (this.alcohol === "never" || this.alcohol === "minimal") {
+      return this.ageExpectancy;
+    }
+    else if (this.alcohol === "moderate") {
+      return this.ageExpectancy -= 2;
+    }
+    else {
+      return this.ageExpectancy -=5;
+    }
+  }
+
 }
 
 
