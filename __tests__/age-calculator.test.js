@@ -20,6 +20,10 @@ describe ('Test', () => {
     expect(newTest.venusCalculator()).toEqual(19)
   })
 
+  test('should return the age in Mars years', () => {
+    expect(newTest.marsCalculator()).toEqual(56)
+  })
+
 
 
 
