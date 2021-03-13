@@ -24,7 +24,9 @@ describe ('Test', () => {
     expect(newTest.marsCalculator()).toEqual(56)
   })
 
-
+  test('should return the age in Jupiter years', () => {
+    expect(newTest.jupiterCalculator()).toEqual(356)
+  })
 
 
 
