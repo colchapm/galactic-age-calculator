@@ -28,4 +28,9 @@ export default class AgeCalculator {
     let jupiterAge = Math.round(this.age * 11.86)
     return jupiterAge;
   }
+
+  yearsRemain() {
+    let toGo = Math.round(this.expectancy - this.age)
+    return toGo;
+  }
 }
