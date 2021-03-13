@@ -12,6 +12,9 @@ describe ('Test', () => {
     expect(newTest.earthCalculator()).toEqual(30);
   })
 
+  test('shold return the age in Mercury years', () => {
+    expect(newTest.mercuryCalculator()).toEqual(7)
+  })
 
 
 
