@@ -18,5 +18,9 @@ describe ('Test', () => {
     expect(expectancyTest.regionCalculator()).toEqual(77);
   })
 
+    test('should return average life expectancy based on gender', () => {
+      expect(expectancyTest.genderCalculator()).toEqual(77);
+    })
+
 
 })
