@@ -29,7 +29,9 @@ describe ('Test', () => {
     expect(newTest.jupiterCalculator()).toEqual(356)
   })
 
-
+  test('should return the number of years left to live on Earth', () => {
+    expect(newTest.yearsRemain()).toEqual(43)
+  })
 
 
 })
