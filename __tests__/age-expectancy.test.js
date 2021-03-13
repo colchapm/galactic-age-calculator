@@ -33,6 +33,6 @@ describe ('Test', () => {
     expectancyTest.regionCalculator();
     expectancyTest.genderCalculator();
     expectancyTest.tobaccoCalculator();
-    expect(expectancyTest.alcoholCalculator()).toEqual(67)
-  }
+    expect(expectancyTest.alcoholCalculator()).toEqual(67);
+  })
 })
