@@ -5,7 +5,8 @@ describe ('Test', () => {
   let newTest; 
   beforeEach(() => {
     let age = 30;
-    newTest = new AgeCalculator(age);
+    let expectancy = 73
+    newTest = new AgeCalculator(age, expectancy);
   });
 
   test('should return the age in Earth years', () => {

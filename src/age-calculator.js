@@ -1,6 +1,7 @@
 export default class AgeCalculator {
-  constructor(age) {
+  constructor(age, expectancy) {
     this.age = age;
+    this.expectancy = expectancy
 }
 
   earthCalculator() {
