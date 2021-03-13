@@ -3,7 +3,7 @@
 
 # Galactic Age Calculator
 
-#### This application determines a user's age based on a planet's solar years
+#### This application determines a user's age based on a planet's solar years.
 
 #### By Collin Chapman
 
@@ -37,7 +37,7 @@
 
 ## Description
 
-This goal of this project is to solidify my knowledge of Test Driven Development and Environments with JavaScript. A solar year lasts 365 days on planet Earth. However, the length of a solar year varies form planet to planet. For instance, a solar year on Mercury lasts 88 days. This application is supposed to determine a user's age based on a planet's solar years.
+This goal of this project is to solidify my knowledge of Test Driven Development and Modern Environments within JavaScript. A solar year lasts 365 days on planet Earth. However, the length of a solar year varies form planet to planet. For instance, a solar year on Mercury lasts 88 days. This application is supposed to determine a user's age based on a planet's solar years. Furthermore, based on average life expectancy, this application will tell the user how many years they have left to live or how many years they have lived beyond life expectancy.
 
 ## Setup/Installation Requirements
 
