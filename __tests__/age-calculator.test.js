@@ -37,4 +37,7 @@ describe ('Test', () => {
     expect(newTest.yearsExceed()).toEqual('You have lived 15 years beyond average life expectancy.')
   })
 
+  test('should either return the number of years left to live on Earth or if current age exceeds average life expectancy, return the number of years lived beyond life expectancy', () => {
+    expect(newTest.lifeCalculator()).toEqual(43)
+  })
 })
