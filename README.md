@@ -56,7 +56,11 @@ This goal of this project is to solidify my knowledge of Test Driven Development
 
 | Behavior | Input | Output |
 |:---: |:---:|:---:|
-| The program should... | When it receives... | It should return...|
+| The program should return the age in Mercury years | When it receives 30 | It should return 7|
+| The program should return the age in Venus years | When it receives 30 | It should return 19|
+| The program should return the age in Mars years | When it receives 30 | It should return 56|
+| The program should return the age in Jupiter years | When it receives 30 | It should return 356|
+| The program should either return the number of years left to live on Earth or if current age exceeds average life expectancy, return the number of years lived beyond life expectancy | When it receives 30 | It should return 'You have 43 years left to live before reaching average life expectancy on Earth.'|
 
 ## Known Bugs
 
