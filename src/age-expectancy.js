@@ -1,4 +1,3 @@
-//Business Logic
 
 export default class AgeExpectancy {
   constructor (region, gender, tobacco, alcohol) {
@@ -67,15 +66,3 @@ export default class AgeExpectancy {
 
 }
 
-
-//User Interface Logic
-
-// $(document).ready(function() {
-//   $("form#userInput").submit(function(event)
-//     event.preventDefault();
-//     let age = $("#userAge").val();
-//     let region = $("#region").val();
-//     let gender = $("#gender").val();
-//     let tobacco = $("#tobacco").val();
-//     let alcohol = $("#alcohol").val();
-// })
