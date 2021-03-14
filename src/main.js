@@ -31,6 +31,7 @@ $(document).ready(function() {
     const jupiterAge = solarAge.jupiterCalculator();
     const ageComment = solarAge.lifeCalculator();
 
+    $(".button").hide();
     $("#output").show();
     $("#mercuryAge").text(mercuryAge);
     $("#venusAge").text(venusAge);

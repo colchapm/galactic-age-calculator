@@ -30,6 +30,6 @@ describe ('Test', () => {
   })
 
   test('should either return the number of years left to live on Earth or if current age exceeds average life expectancy, return the number of years lived beyond life expectancy', () => {
-    expect(newTest.lifeCalculator()).toEqual('you have 43 years left to live before reaching average life expectancy on Earth.')
+    expect(newTest.lifeCalculator()).toEqual('You have 43 years left to live before reaching average life expectancy on Earth.')
   })
 })

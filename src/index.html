@@ -27,13 +27,13 @@
           <div class="radio">
             <label>
               <input type="radio" name="gender" value="male">
-              Male
+              male
             </label>
           </div>
           <div class="radio">
             <label>
               <input type="radio" name="gender" value="female">
-              Female
+              female
             </label>
           </div>
         </div>
@@ -43,57 +43,63 @@
           <div class="radio">
             <label>
               <input type="radio" name="tobacco" value="never">
-              Never Smoked
+              never smoked
             </label>
           </div>
           <div class="radio">
             <label>
               <input type="radio" name="tobacco" value="social">
-              Socially
+              socially
             </label>
           </div>
           <div class="radio">
             <label>
               <input type="radio" name="tobacco" value="heavy">
-              Heavy Smoker
+              heavy smoker
             </label>
           </div>
           <h5 class="subheader">Alcohol Tendencies</h5>
           <div class="radio">
             <label>
               <input type="radio" name="alcohol" value="never">
-              Zero Drinks Per Week
+              zero drinks per week
             </label>
           </div>
           <div class="radio">
             <label>
               <input type="radio" name="alcohol" value="minimal">
-              1-7 Drinks Per Week
+              1-7 drinks per week
             </label>
           </div>
           <div class="radio">
             <label>
               <input type="radio" name="alcohol" value="moderate">
-              8-15 Drinks Per Week
+              8-15 drinks per week
             </label>
           </div>
           <div class="radio">
             <label>
               <input type="radio" name="alcohol" value="heavy">
-              16 Or More Drinks Per Week
+              16 or more drinks per week
             </label>
           </div>
         </div>
       </div>
-    <button type="submit" class="button">Calculate Solar Years & Life Expectancy</button>
+    <button type="submit" class="button">calculate solar years & life expectancy</button>
     </form>
   </div>
   <span id="output">
-    <p>In Mercury years you are <span id="mercuryAge"></span> years old.</p>
-    <p>In Venus years you are <span id="venusAge"></span> years old.</p>
-    <p>In Mars years you are <span id="marsAge"></span> years old.</p>
-    <p>In Jupiter years you are <span id="jupiterAge"></span> years old.</p>
-    <p>Based on your personal information and lifestyle habits, your life expectancy is <span id="expectancy"></span> years old and <span id="ageComment"></span></p>
+    <div class="row">
+      <div class="col-md-4">
+        <ul>In Mercury years you are <span id="mercuryAge"></span> years old.</ul>
+        <ul>In Venus years you are <span id="venusAge"></span> years old.</ul>
+        <ul>In Mars years you are <span id="marsAge"></span> years old.</ul>
+        <ul>In Jupiter years you are <span id="jupiterAge"></span> years old.</ul>
+      </div>
+      <div class="col-md-4">
+        <ul>Based on your personal information and lifestyle habits, your life expectancy is <span id="expectancy"></span> years old. <span id="ageComment"></span></ul>
+    </div>
+  </div>
   </span>
 
 
