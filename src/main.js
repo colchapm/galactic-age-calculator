@@ -31,6 +31,7 @@ $(document).ready(function() {
     const jupiterAge = solarAge.jupiterCalculator();
     const ageComment = solarAge.lifeCalculator();
 
+    $("#output").show();
     $("#mercuryAge").text(mercuryAge);
     $("#venusAge").text(venusAge);
     $("#marsAge").text(marsAge);
@@ -40,24 +41,3 @@ $(document).ready(function() {
   });
 });
 
-
-// $(document).ready(function() {
-//   $("form#userInput").submit(function(event) {
-//     event.preventDefault();
-//     let age = $("#userAge").val();
-//     let expectancy = userLifeExpectancy;
-
-//     let solarAge = new AgeCalculator(age, expectancy);
-
-//     const mercuryAge = solarAge.mercuryCalculator();
-//     const venusAge = solarAge.venusCalculator();
-//     const marsAge = solarAge.marsCalculator();
-//     const jupiterAge = solarAge.jupiterCalculator();
-
-//     $("#mercuryAge").text(mercuryAge);
-//     $("#venusAge").text(venusAge);
-//     $("#marsAge").text(marsAge);
-//     $("#jupiterAge").text(jupiterAge);
-
-//   });
-// });
