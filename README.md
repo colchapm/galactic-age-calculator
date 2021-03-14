@@ -9,7 +9,7 @@
 
 ## Preview
 
-  * Follow this [path](https://github.com/) to view the project on GitHub Pages
+  * Follow this [path](https://colchapm.github.io/galactic-age-calculator/) to view the project on GitHub Pages
 
 ## Technologies Used
 
@@ -64,8 +64,7 @@ This goal of this project is to solidify my knowledge of Test Driven Development
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* If the user's age equals the calculated life expectancy, the application should return a message stating 'You are [age] years old and that is equal to the average life expectancy on Earth'. It is currently not doing this. 
 
 ## License
 
