@@ -1,3 +1,63 @@
 #output {
   display: none;
 }
+
+.title {
+  text-align: center;
+  color: blanchedalmond;
+  font-size: 7;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1.15;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 10px;
+  box-sizing: border-box;
+  display: block;
+}
+
+.subtitle {
+  text-align: center;
+  color: blanchedalmond;
+  font-size: 7;
+  letter-spacing: 1px;
+  line-height: 1.15;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 10px;
+  box-sizing: border-box;
+  display: block;
+}
+
+.header {
+  font-size: 5;
+  color: blanchedalmond;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1.15;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 13px;
+  margin: 10px;
+  box-sizing: border-box;
+  display: block;
+}
+
+.subheader {
+  font-size: 3;
+  color: blanchedalmond;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1.15;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 13px;
+  margin: 10px;
+  box-sizing: border-box;
+  display: block;
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1528819027803-5473f2bf7633?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHw%3D&w=1000&q=80);
+  background-color: black;
+  color: blanchedalmond;
+  
+}

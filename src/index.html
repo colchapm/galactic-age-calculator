@@ -4,80 +4,88 @@
   <title>Galactic Age Calculator</title>
 </head>
 <body>
+  <h2 class="title">Welcome To The Galactic Age Calculator</h2>
+  <p class="subtitle">enter information below to see your age based on a planet's solar years</p>
   <div class="container">
     <form id="userInput">
-      <h3>Personal Info</h3>
-      <label for="userAge">How old are you?</label>
-      <input id="userAge" class="form-control" type="number">
-      <h5>Region</h5>
-      <select class="form-control" id="region">
-        <option disables selected value> -- Where do you live? --</option>
-        <option>Americas</option>
-        <option>Africa</option>
-        <option>Eastern Mediterranean</option>
-        <option>Europe</option>
-        <option>Western Pacific</option>
-        <option>South-East Asia</option>
-      </select>
-      <h5>Gender</h5>
-      <div class="radio">
-        <label>
-          <input type="radio" name="gender" value="male">
-          Male
-        </label>
+      <div class="row">
+        <div class="col-lg-6">
+          <h3 class="header">Personal Info</h3>
+          <label for="userAge" class="subheader">How old are you?</label>
+          <input id="userAge" class="form-control" type="number">
+          <h5 class="subheader">Region</h5>
+          <select class="form-control" id="region">
+            <option disables selected value> -- Where do you live? --</option>
+            <option>Americas</option>
+            <option>Africa</option>
+            <option>Eastern Mediterranean</option>
+            <option>Europe</option>
+            <option>Western Pacific</option>
+            <option>South-East Asia</option>
+          </select>
+          <h5 class="subheader">Gender</h5>
+          <div class="radio">
+            <label>
+              <input type="radio" name="gender" value="male">
+              Male
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="gender" value="female">
+              Female
+            </label>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h3 class="header">Lifestyle</h3>
+          <h5 class="subheader">Smoking Tendencies</h5>
+          <div class="radio">
+            <label>
+              <input type="radio" name="tobacco" value="never">
+              Never Smoked
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="tobacco" value="social">
+              Socially
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="tobacco" value="heavy">
+              Heavy Smoker
+            </label>
+          </div>
+          <h5 class="subheader">Alcohol Tendencies</h5>
+          <div class="radio">
+            <label>
+              <input type="radio" name="alcohol" value="never">
+              Zero Drinks Per Week
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="alcohol" value="minimal">
+              1-7 Drinks Per Week
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="alcohol" value="moderate">
+              8-15 Drinks Per Week
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="alcohol" value="heavy">
+              16 Or More Drinks Per Week
+            </label>
+          </div>
+        </div>
       </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="gender" value="female">
-          Female
-        </label>
-      </div>
-      <h3>Lifestyle</h3>
-      <h5>Smoking</h5>
-      <div class="radio">
-        <label>
-          <input type="radio" name="tobacco" value="never">
-          Never Smoked
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="tobacco" value="social">
-          Socially
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="tobacco" value="heavy">
-          Heavy Smoker
-        </label>
-      </div>
-      <h5>Alcohol</h5>
-      <div class="radio">
-        <label>
-          <input type="radio" name="alcohol" value="never">
-          Zero Drinks Per Week
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="alcohol" value="minimal">
-          1-7 Drinks Per Week
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="alcohol" value="moderate">
-          8-15 Drinks Per Week
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="alcohol" value="heavy">
-          16 Or More Drinks Per Week
-        </label>
-      </div>
-      <button type="submit" class="button">Calculate My Life Expectancy</button>
+    <button type="submit" class="button">Calculate Solar Years & Life Expectancy</button>
     </form>
   </div>
   <span id="output">
