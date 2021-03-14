@@ -1,17 +1,14 @@
-import AgeExpectancy from '../src/age-expectancy.js';
+import AgeExpectancy from './../src/js/age-expectancy.js';
 
 describe ('Test', () => {
   let expectancyTest;
   beforeEach(() => {
+    let age = 30;
     let region = "Americas";
     let gender = "female";
     let tobacco = "heavy";
     let alcohol = "moderate";
-    // let region = $("#region").val();
-    // let gender = $("#gender").val();
-    // let tobacco = $("#tobacco").val();
-    // let alcohol = $("#alcohol").val();
-    expectancyTest = new AgeExpectancy(region, gender, tobacco, alcohol)
+    expectancyTest = new AgeExpectancy(age, region, gender, tobacco, alcohol)
   });
 
   test('should return average life expectancy based on region', () => {
