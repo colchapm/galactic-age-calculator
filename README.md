@@ -64,7 +64,7 @@ This goal of this project is to solidify my knowledge of Test Driven Development
 
 ## Known Bugs
 
-* If the user's age equals the calculated life expectancy, the application should return a message stating 'You are [age] years old and that is equal to the average life expectancy on Earth'. It is currently not doing this. 
+* No known bugs at this time
 
 ## License
 
